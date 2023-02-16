@@ -2,8 +2,8 @@
 #include <string.h>
 #include <unistd.h>
 /**
- main - main function prints to stderr
- Return: 1 always
+* main - main function prints to stderr
+* Return: 1 always
  */
 int main(void)
 {

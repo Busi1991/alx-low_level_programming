@@ -9,10 +9,11 @@ int main(void)
 {
     int x;
 
-    x = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+    x = strlen(
+"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 
     write(2,
-        "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-        x);
+                "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+        , x);
     return (1);
 }
